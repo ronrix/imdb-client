@@ -1,0 +1,45 @@
+.trailer-container {
+    display: flex;
+}
+
+.main-content_upnext {
+    color: var(--primary-yellow-color);
+    font-weight: bold;
+
+    font-size: 1.2rem;
+    margin: 1rem 0 1.2rem 1rem;
+}
+
+.card-container {
+    position: relative;
+
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    max-height: 100vh;
+    margin-right: 2rem;
+
+    overflow: scroll;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.card-container::-webkit-scrollbar {
+    display: none;
+}
+
+.browse-trailer-btn {
+    font-size: 1.2rem;
+    color: var(--primary-font-color-light);
+    margin-left: 2rem;
+    font-weight: bolder;
+}
+.browse-trailer-btn:hover,
+.browse-trailer-btn:hover .imdb-icon-size-md {
+    color: var(--primary-yellow-color);
+}
+.browse-trailer-btn > * {
+    margin-left: 0.5rem;
+    font-weight: bolder;
+}

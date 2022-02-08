@@ -1,0 +1,106 @@
+.carousel-container {
+    width: 60%;
+    margin: 1rem 1.5rem;
+    margin-right: 1rem;
+    flex: 2;
+    position: relative;
+}
+
+.carousel-item {
+    width: 100%;
+    height: 90vh;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 0;
+    bottom: 0;
+    padding-left: 5rem;
+    width: 100%;
+    box-shadow: -10px -3px 57px 48px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -10px -3px 57px 48px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -10px -3px 57px 48px rgba(0, 0, 0, 0.75);
+}
+
+.carousel-caption .caption-texts {
+    text-align: left;
+    margin-left: 1rem;
+}
+
+.carousel-caption .caption-texts h3 {
+    text-transform: capitalize;
+}
+
+.carousel-caption .caption-texts p {
+    color: var(--grayish-font-color);
+}
+
+.carousel-container:hover .imdb-icon-size-lg {
+    color: var(--primary-yellow-color);
+}
+
+.carousel-movie-wallpaper {
+    position: absolute;
+    left: 2rem;
+    bottom: 0rem;
+    width: 150px;
+    height: 250px;
+    z-index: 100;
+}
+
+.card-flex-col {
+    display: flex;
+    margin-left: 1em;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-title {
+    font-size: 1rem;
+    text-transform: capitalize;
+    margin-top: 0.5rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 0.75rem;
+    color: var(--grayish-font-color);
+}
+
+.card-inner {
+    color: #fff;
+    display: flex;
+    width: 100%;
+    align-items: center;
+
+    cursor: pointer;
+    transition: backgroundColor 100ms ease-in-out;
+}
+
+.card-flex-col:hover .imdb-icon-size-md,
+.card-flex-col:focus .imdb-icon-size-md {
+    color: var(--primary-yellow-color);
+}
+
+.card-img {
+    width: 135px;
+    height: 135px;
+}
+
+.card-component {
+    background-image: linear-gradient(
+        to bottom,
+        var(--dark-color),
+        var(--black-color),
+        var(--black-color)
+    );
+
+    border: none;
+}
+
+.card-texts:hover {
+    background: #f08a16;
+}

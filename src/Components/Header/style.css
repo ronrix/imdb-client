@@ -1,0 +1,61 @@
+.navbar {
+    background-color: var(--dark-color);
+    height: 50px;
+}
+
+.search--input {
+    display: flex;
+}
+
+.container--search {
+    display: flex;
+}
+
+.navbar h1 {
+    font-size: 1.5rem;
+    color: var(--primary-font-color-light);
+    text-align: center;
+    background: var(--primary-yellow-color);
+    font-weight: bolder;
+    border-radius: 5px;
+    color: #000;
+    display: inline;
+    padding: 0 1rem;
+}
+
+.dropdown--button a,
+.dropdown--button button {
+    font-size: 1rem;
+}
+.search--input input {
+    font-size: 0.8rem;
+}
+
+.search--input {
+    width: 100%;
+}
+
+.checks {
+    width: 100%;
+    text-align: left;
+    align-items: center;
+}
+
+.watchlist,
+.signin {
+    background: none;
+    border: none;
+    border: 2px dotted transparent;
+    font-weight: bold;
+}
+.watchlist .watchlist--icon {
+    margin-right: 0.2rem !important;
+}
+
+.watchlist:hover,
+.watchlist:active,
+.signin:hover,
+.singin:focus {
+    border: 2px dotted white;
+    background: var(--focus-gray);
+}
