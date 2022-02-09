@@ -1,0 +1,83 @@
+.tbo-container {
+    margin: 2rem 4rem 0 4rem;
+
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 100px;
+}
+
+.tbo-container a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    padding-left: .5rem; 
+    font-weight: bolder;
+    border-left: .5rem solid var(--primary-yellow-color);
+    color: white;
+}
+
+.tbo-container a:hover .right-arrow {
+    color: var(--primary-yellow-color);
+}
+
+.tbo-container p {
+    margin-top: .5rem;
+    color: var(--primary-font-color-light);
+}
+
+.tbo-lists {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.tbo-lists p {
+    font-size: 1.2rem;
+    color: #f4f4f4;
+}
+
+.tbo-lists .tbo-top {
+    border-right: .2rem solid var(--primary-yellow-color);
+    padding-right: .2rem;
+    margin-right: .3rem;
+}
+
+.tbo-lists .imdb-icon-size-md {
+    color: var(--grayish-color);
+    font-size: 2.2rem;
+    margin-right: .3rem;
+}
+
+.tbo-lists .top-list-rev {
+    font-size: .81rem;
+    color: #888;
+}
+
+.tbo-top-list {
+    display: flex;
+    align-items: center;
+    margin: 0 .5rem;
+
+    cursor: pointer;
+}
+
+.top-list-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.top-list-container .ticket-icon {
+    font-size: 2rem;
+    transform: rotate(130deg);
+    color: blue;
+}
+
+.tbo-top-list:hover {
+    opacity: .8;
+}
+
+/* tbo-toplist-even-bg */
+.tbo-toplist-even-bg {
+    background-image: linear-gradient(to right, black, black, var(--dark-color));
+}

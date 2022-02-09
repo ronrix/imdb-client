@@ -26,9 +26,9 @@ const carouselLinks = [
 const CarouselComponent = () => {
     return (
         <Carousel
-            fade
+            //fade
             variant="light"
-            className="carousel-container"
+            className="carousel-component"
             nextIcon={
                 <span
                     aria-hidden="true"
@@ -62,7 +62,7 @@ const CarouselComponent = () => {
                 return (
                     <Carousel.Item
                         interval={1000}
-                        className="carousel-item"
+                        className="carousel-content__item"
                         key={key}
                     >
                         <img

@@ -1,12 +1,13 @@
-.carousel-container {
+/* carousel style */
+.carousel-component  {
     width: 60%;
-    margin: 1rem 1.5rem;
+    margin: 1rem 4rem;
     margin-right: 1rem;
     flex: 2;
     position: relative;
 }
 
-.carousel-item {
+.carousel-content__item {
     width: 100%;
     height: 90vh;
 }
@@ -38,7 +39,7 @@
     color: var(--grayish-font-color);
 }
 
-.carousel-container:hover .imdb-icon-size-lg {
+.carousel-container-trailer:hover .imdb-icon-size-lg {
     color: var(--primary-yellow-color);
 }
 
@@ -51,7 +52,9 @@
     z-index: 100;
 }
 
-.card-flex-col {
+/* card style */
+
+.card-inner__content {
     display: flex;
     margin-left: 1em;
     flex-direction: column;
@@ -80,12 +83,12 @@
     transition: backgroundColor 100ms ease-in-out;
 }
 
-.card-flex-col:hover .imdb-icon-size-md,
-.card-flex-col:focus .imdb-icon-size-md {
+.card-inner__content:hover .imdb-icon-size-md,
+.card-inner__content:focus .imdb-icon-size-md {
     color: var(--primary-yellow-color);
 }
 
-.card-img {
+.card-inner__img {
     width: 135px;
     height: 135px;
 }

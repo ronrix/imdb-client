@@ -1,13 +1,13 @@
 .featured-container {
-    margin-top: 2rem;
-    margin-left: 2rem;
+    margin: 2rem 4rem 0 4rem;
 }
 
 .featured-container h3 {
     color: var(--primary-yellow-color);
+    font-weight: bold;
 }
 
-.featured-container .card-img {
+.featured-container .featured-card-img-container {
     width: 250px;
     height: 200px;
 }
@@ -37,7 +37,7 @@
     padding: 0;
 }
 
-.featured-container .icon-position {
+.featured-container .featured-icon-position {
     position: absolute;
     font-size: 2rem;
     left: 1rem;

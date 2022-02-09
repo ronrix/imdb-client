@@ -2,7 +2,10 @@ import React from "react";
 
 import CardComponent from "./Trailer/Card";
 import CarouselComponent from "./Trailer/Carousel";
+
 import Featured from "./Featured/index.jsx";
+import WatchList from "./Watchlist/index.jsx";
+import TopBoxOffice from "./TopBoxOffice/index.jsx";
 
 import { ChevronRight } from "react-bootstrap-icons";
 
@@ -10,14 +13,14 @@ import "./style.css";
 
 const MainContent = () => {
     return (
-        <div className="main-container">
+        <div className="main-content__container">
             {/* Trailer */}
-            <div className="trailer-container">
+            <div className="main-content__trailer">
                 <CarouselComponent />
-                <div className="card-container">
-                    <h2 className="main-content_upnext">Up Next</h2>
+                <div className="main-container__card">
+                    <h2 className="btn-upnext">Up Next</h2>
                     <CardComponent />
-                    <p className="browse-trailer-btn">
+                    <p className="trailer-btn">
                         Browse Trailers
                         <ChevronRight />
                     </p>
@@ -26,6 +29,12 @@ const MainContent = () => {
 
             {/* Featured Today */}
             <Featured />
+
+            {/* WatchList front page*/}
+            <WatchList />
+
+            {/* Top Box office Lists */}
+            <TopBoxOffice />
         </div>
     );
 };

@@ -40,28 +40,28 @@ const Featured = () => {
         <div className="featured-container">
             <h3>Featured today</h3>
             <Carousel 
-              swipeable={false}
-              draggable={false}
-              showDots={true}
-              responsive={responsive}
-              //ssr={true} // means to render carousel on server-side.
-              infinite={false}
-              //autoPlay={this.props.deviceType !== "mobile" ? true : false}
-              //autoPlaySpeed={1000}
-              keyBoardControl={true}
-              customTransition="all .5"
-              transitionDuration={10}
-              containerClass="carousel-container"
-              removeArrowOnDeviceType={["tablet", "mobile"]}
-              dotListClass="custom-dot-list-style"
-              itemClass="item-padding" 
-               sliderClass="react-multi-carousel-track"
+                swipeable={false}
+                draggable={false}
+                showDots={true}
+                responsive={responsive}
+                //ssr={true} // means to render carousel on server-side.
+                infinite={false}
+                //autoPlay={this.props.deviceType !== "mobile" ? true : false}
+                //autoPlaySpeed={1000}
+                keyBoardControl={true}
+                customTransition="all .5"
+                transitionDuration={10}
+                containerClass="carousel-container"
+                removeArrowOnDeviceType={["tablet", "mobile"]}
+                dotListClass="custom-dot-list-style"
+                itemClass="item-padding" 
+                sliderClass="react-multi-carousel-track"
               >
                 {featuredLinks.map((featured, idx) => {
                     return (
-                        <div key={idx} className="card-img">
+                        <div key={idx} className="featured-card-img-container">
                             <img src={featured} alt="featured movies" className="featured-img" />
-                            <PlayCircle className="imdb-icon-size-sm icon-position"/>
+                            <PlayCircle className="imdb-icon-size-sm featured-icon-position"/>
                             <div className="feature-text">This is sample text </div>
                         </div>
                     )

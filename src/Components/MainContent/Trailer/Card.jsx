@@ -22,9 +22,9 @@ const CardComponent = () => {
                         <Card.Img
                             variant="top"
                             src={card.url}
-                            className="card-img"
+                            className="card-inner__img"
                         />
-                        <div className="card-flex-col">
+                        <div className="card-inner__content">
                             <div className="imdb-flex">
                                 <PlayCircle className="imdb-icon-size-md" />
                                 <p style={{ marginLeft: ".5rem" }}>

@@ -1,0 +1,74 @@
+.watchlist-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 4rem;
+    margin-top: 2rem;
+    justify-content: space-evenly;
+}
+
+.watchlist-top {
+   display: flex; 
+   justify-content: space-between;
+   align-items: center;
+}
+
+.watchlist-top h3 {
+   color: var(--primary-yellow-color);
+   font-weight: bold;
+}
+
+.watchlist-top a {
+   text-decoration: none;
+}
+
+.watchlist-redirect-btn {
+   margin-top: 1rem;
+   padding-left: .5rem;
+   width: 230px;
+
+   color: var(--primary-font--color-light);
+   text-decoration: none;
+   font-size: 1.5rem;
+   color: white;
+   font-weight: bold;
+
+   border-left: .5rem solid var(--primary-yellow-color);
+}
+
+.watchlist-redirect-btn:hover {
+   color: white;
+}
+
+.watchlist-redirect-btn .imd-icon-size-md {
+   margin-left: 1rem;
+}
+
+.watchlist-redirect-btn:hover .imdb-icon-size-md {
+   color: var(--primary-yellow-color);
+}
+
+.watchlist-login-mod {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding: 4rem;
+}
+
+.watchlist-login-mod .imdb-icon-size-md {
+   color: var(--primary-font-color-light);
+}
+
+.watchlist-login-mod h4 {
+   margin-top: 1rem;
+   font-weight: bold;
+   color: white;
+}
+
+.watchlist-login-mod p {
+   color: var(--primary-font-color-light);
+}
+
+.watchlist-login-mod .signin-btn {
+   margin-top: 1rem;
+}
