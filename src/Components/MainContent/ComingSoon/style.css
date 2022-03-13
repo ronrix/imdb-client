@@ -1,0 +1,13 @@
+.multi-carou-container h3.customClass {
+    border-left: .5rem solid var(--primary-yellow-color);
+    color: white !important;
+    padding-left: .5rem;
+    font-size: 1.5rem;
+}
+
+.multi-carou-container h5 {
+    color: var(--grayish-font-color);
+    margin: .5rem;
+    font-size: 1rem;
+    text-transform: capitalize;
+}

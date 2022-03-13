@@ -6,6 +6,7 @@ import CarouselComponent from "./Trailer/Carousel";
 import Featured from "./Featured/index.jsx";
 import WatchList from "./Watchlist/index.jsx";
 import TopBoxOffice from "./TopBoxOffice/index.jsx";
+import ComingSoon from "./ComingSoon/index.jsx";
 
 import { ChevronRight } from "react-bootstrap-icons";
 
@@ -35,6 +36,9 @@ const MainContent = () => {
 
             {/* Top Box office Lists */}
             <TopBoxOffice />
+
+            {/* Coming Soon to Theaters */}
+            <ComingSoon />
         </div>
     );
 };

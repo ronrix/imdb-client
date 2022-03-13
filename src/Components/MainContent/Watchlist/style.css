@@ -1,9 +1,9 @@
 .watchlist-container {
-    display: flex;
+    display: inline-flex;
+    width: 100%;
     flex-direction: column;
-    margin: 0 4rem;
-    margin-top: 2rem;
     justify-content: space-evenly;
+    margin-top: 2rem;
 }
 
 .watchlist-top {

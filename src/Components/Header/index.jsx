@@ -16,18 +16,20 @@ const Header = () => {
     };
 
     return (
-        <Container fluid className="navbar">
-            <Row className="checks">
-                <Title />
-                <SearchBar
-                    selectCategory={selectCategory}
-                    searchCategory={searchCategory}
-                    searchInput={searchInput}
-                    setSearchInput={setSearchInput}
-                />
-                <Buttons />
-            </Row>
-        </Container>
+        <div className="navbar-wrapper">
+            <Container className="navbar">
+                <Row className="checks">
+                    <Title />
+                    <SearchBar
+                        selectCategory={selectCategory}
+                        searchCategory={searchCategory}
+                        searchInput={searchInput}
+                        setSearchInput={setSearchInput}
+                    />
+                    <Buttons />
+                </Row>
+            </Container>
+        </div>
     );
 };
 

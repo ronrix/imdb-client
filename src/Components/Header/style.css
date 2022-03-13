@@ -1,3 +1,11 @@
+.navbar-wrapper {
+    top:0;
+    left:0;
+    right:0;
+    position: absolute;
+    background-color: var(--dark-color);
+}
+
 .navbar {
     background-color: var(--dark-color);
     height: 50px;
@@ -5,6 +13,11 @@
 
 .search--input {
     display: flex;
+}
+
+.input {
+    max-width: 100%;
+    min-width: 80%;
 }
 
 .container--search {
@@ -43,6 +56,7 @@
 
 .watchlist,
 .signin {
+    font-size: .9rem;
     background: none;
     border: none;
     border: 2px dotted transparent;

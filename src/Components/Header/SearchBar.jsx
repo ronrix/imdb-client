@@ -37,8 +37,9 @@ const SearchBar = ({
                     controlId="formBasicEmail"
                 >
                     <Form.Control
-                        type="email"
+                        type="text"
                         placeholder="Search IMDb"
+                        className="input"
                         size="sm"
                         onChange={(e) => setSearchInput(e.target.value)}
                     />

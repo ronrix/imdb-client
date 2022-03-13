@@ -3,6 +3,7 @@
     width: 60%;
     margin: 1rem 4rem;
     margin-right: 1rem;
+    margin-top: 60px;
     flex: 2;
     position: relative;
 }
@@ -19,7 +20,7 @@
     justify-content: center;
     left: 0;
     bottom: 0;
-    padding-left: 5rem;
+    padding-left: 9rem;
     width: 100%;
     box-shadow: -10px -3px 57px 48px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: -10px -3px 57px 48px rgba(0, 0, 0, 0.75);
@@ -28,7 +29,7 @@
 
 .carousel-caption .caption-texts {
     text-align: left;
-    margin-left: 1rem;
+    padding-left: 2rem;
 }
 
 .carousel-caption .caption-texts h3 {
@@ -45,10 +46,12 @@
 
 .carousel-movie-wallpaper {
     position: absolute;
-    left: 2rem;
+    left: 1rem;
     bottom: 0rem;
-    width: 150px;
-    height: 250px;
+    max-width: 150px;
+    max-height: 250px;
+    min-width: 100px;
+    min-height: 100px;
     z-index: 100;
 }
 
